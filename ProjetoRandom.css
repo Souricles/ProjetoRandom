@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     /* Adapta a imagem ao tamanho da tela */
-    background-position: center
+    background-position: center;
 }
 
 #sortear {
@@ -17,27 +17,10 @@ body {
     font-weight: 600;
 }
 
-#imagem {
-    width: 500px;
-}
+
 
 
 #agaum {
     color: white;
 }
 
-@media (max-width: 700px) {
-    #image {
-        width: 365px;
-        height: 100%;
-    }
-
-    body {
-        background-size: 500%;
-    }
-
-    #div-one, #div-one-2, #sortear {
-        margin-right: -110px;
-        margin-left: 10px;
-    }
-}
